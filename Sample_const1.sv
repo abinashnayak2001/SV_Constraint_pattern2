@@ -1,6 +1,6 @@
 class trans ;
 	rand int ar[];
-	int maxm;
+	int maxm = 5;
 
 	constraint c1 {
 			ar.size() == 3*maxm;
